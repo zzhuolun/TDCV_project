@@ -559,7 +559,7 @@ def draw_bbx_test(test_dir, model_name, gpu=3):
 
 
 if __name__ == '__main__':
-    test_dir = '/home/zhuolun/evalmia/arxiv/__pycache__/data/real/test'
+    test_dir = '../data/real/test'
     gpu = 0
 
     mspd_real = mspd_log('real', gpu)
@@ -579,7 +579,7 @@ if __name__ == '__main__':
     with open('mspd_real_synthetic_sym.txt', 'w') as f:
         json.dump(mspd_real_synthetic_sym, f)
 
-    nocs_model_dir = '/home/zhuolun/evalmia/arxiv/__pycache__/NOCS/output/real_test_20210324T2000'
+    nocs_model_dir = '../NOCS/output/real_test_20210324T2000'
 
     mspd_nocs = mspd_log_nocs(nocs_model_dir, test_dir)
     with open('mspd_nocs.txt', 'w') as f:
