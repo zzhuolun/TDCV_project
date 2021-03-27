@@ -6,7 +6,7 @@ __pycache__/
 .idea/
 *.pt
 predicts/
-/zip_git
+# /zip_git
 /ckpt/
 *.jpg
 *.png

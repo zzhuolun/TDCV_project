@@ -1,0 +1,1 @@
+zip -r gitzip.zip ./ -x ./dataset/\* predicts/\* *.pt __pycache__/\* ./synthetic_ds/\* *.jpg *.png ./ckpt/\*
