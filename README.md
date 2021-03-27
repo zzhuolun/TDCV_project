@@ -1,11 +1,10 @@
 # tdcv_project
-
+See description at [project summary](https://github.com/zzhuolun/TDCV_project/blob/master/project_summary.pdf)
 ## code structure:
- - train.py: train the correspondence for each classes
- - predict.py: draw the pose estimation results/ compute MSPD error
+ - train.py: trains the correspondence for each classes
+ - predict.py: draws the pose estimation results/ computes MSPD error
  - utils.py: defines some useful class and helper funtions
  - unet.py: the architecture of the model
- - model_projector/: rendering the nocs map and cropping out single objects
  - test_imgs.txt: stores the path and class information of test images
  - train_imgs.txt: stores the path and class information of train images
  
