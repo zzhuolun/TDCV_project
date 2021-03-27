@@ -1,0 +1,16 @@
+/dataset/
+/NOCS/
+/.ipynb_checkpoints/
+__pycache__/
+*.zip
+.idea/
+*.pt
+predicts/
+/zip_git
+/ckpt/
+*.jpg
+*.png
+/synthetic_ds/
+/model_projector/
+Untitled.ipynb
+Untitled1.ipynb
